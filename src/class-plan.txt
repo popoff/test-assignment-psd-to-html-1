@@ -1,44 +1,68 @@
-.header {}
+.grid {}
+
+	.grid__container {}
+
+		.grid-1 {}
+		.grid-2 {}
+		.grid-3 {}
+		.grid-4 {}
+		.grid-5 {}
+		.grid-6 {}
+		.grid-7 {}
+		.grid-8 {}
+		.grid-9 {}
+		.grid-10 {}
+		.grid-11 {}
+		.grid-12 {}
+
+		.header {}
+
+			.sitename {}
+
+			.site-title {}
+
+			.key-icon {}
+
+			.login-link {}
+
+			.header__button {}
+
+		.menu {}
+
+			.menu__link {}
+
+			.menu__link menu__link_active {}
+
+			.search-form {}
+
+				.search-form__input
+
+				.search-form__icon {}
 
 
+		.content {}
 
-.logo__mainlogo {}
+			.h1 {}
 
-.logo__itedesc {}
+			.h2 {}
 
+			.list {}
 
-.topnav__loginlink {}
+			.list__header {}
 
-.topnav__contactbtn {}
+			.list__bullet {}
 
+			.list__item {}
 
-.navbar__homebtn {}
+			.recent {}
 
-.navbar__aboutbtn {}
+			.recent__item-img {}
 
-.navbar__newsbtn {}
+			.recent__item-txt {}
+		
+		footer {}
 
-.navbar__portfoliobtn {}
+			.up-icon {}
 
-.navbar__blogbtn {}
-
-
-
-
-
-
-
-__logo {}
-.header__sitedesc {}
-
-.toplinks {}
-.toplinks__login {}
-.toplinks__contact_button {}
-
-
-__login {}
-.header__contact {}
-
-
-
+			.top-txt {}
 
