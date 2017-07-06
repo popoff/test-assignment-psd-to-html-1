@@ -31,7 +31,7 @@
 
 			.menu__link {}
 
-			.menu__link menu__link_active {}
+			.menu__link menu__link--active {}
 
 			.search-form {}
 
@@ -56,9 +56,9 @@
 
 			.recent {}
 
-			.recent__item-img {}
+			.recent__item--img {}
 
-			.recent__item-txt {}
+			.recent__item--txt {}
 		
 		footer {}
 
