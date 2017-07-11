@@ -1,5 +1,5 @@
 {
-  "extends": "stylelint-config-standard",
+  "extends": "q",
   "rules": {
     "indentation": 4,
     "string-quotes": "double",

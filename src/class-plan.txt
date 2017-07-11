@@ -1,6 +1,16 @@
-.grid {}
+Тестовое задание №1
 
-	.grid__container {}
+- Верстка страницы PSD 2 HTML
+- 12 columns grid
+- Responsive, адаптивная для мобильных устройств
+- Нужна верстка pixel perfect
+- Шрифт google fonts
+
+BEM Blocks:
+
+.grid-container {}
+
+    .grid {}
 
 		.grid-1 {}
 		.grid-2 {}
@@ -15,54 +25,53 @@
 		.grid-11 {}
 		.grid-12 {}
 
-		.header {}
+.header {}
 
-			.sitename {}
+	.sitename {}
 
-			.site-title {}
+	.site-title {}
 
-			.key-icon {}
+	.key-icon {}
 
-			.login-link {}
+	.login-link {}
 
-			.header__button {}
+	.button {}
 
-		.menu {}
+    .menu {}
 
-			.menu__link {}
+	    .menu__link {}
 
-			.menu__link menu__link--active {}
+		    .menu__link menu__link--active {}
 
-			.search-form {}
+	    .search-form {}
 
-				.search-form__input
+		    .search-form__input
 
-				.search-form__icon {}
+		.search-form__icon {}
 
+.content {}
 
-		.content {}
+	.h1 {}
 
-			.h1 {}
+	.h2 {}
 
-			.h2 {}
+	.list {}
 
-			.list {}
+	.list__header {}
 
-			.list__header {}
+	.list__bullet {}
 
-			.list__bullet {}
+	.list__item {}
 
-			.list__item {}
+.recent {}
 
-			.recent {}
+	.recent__item--img {}
 
-			.recent__item--img {}
+	.recent__item--txt {}
 
-			.recent__item--txt {}
-		
-		footer {}
+footer {}
 
-			.up-icon {}
+	.up-icon {}
 
-			.top-txt {}
+	.top-txt {}
 
