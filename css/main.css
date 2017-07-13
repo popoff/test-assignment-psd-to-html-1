@@ -1,8 +1,14 @@
-body {
-    margin: ;
-    padding: ;
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
+main {
+
+}
 
 /*GRID STYLES*/
 
@@ -43,24 +49,28 @@ body {
 
 
 /*HEADER STYLES*/
-.header__container {
+.header {
     margin: ;
     padding: 
 }
 
-.site-name {
+.logo {
 
 }
 
-.site-title {
+.header__description {
 
 }
 
-.login-link__container {
+.login {
 
 }
 
-.login-link__link {
+.login__key-icon {
+
+}
+
+.login__link {
 
 }
 
@@ -68,20 +78,28 @@ body {
 
 }
 
-/*Navigation Styles*/
-.main-nav__container {
+.button__text {
 
 }
 
- .main-nav__link {
+/*Navigation Styles*/
+.nav {
+
+}
+
+.menu {
+
+}
+
+ .menu__link {
 
  }
 
- .main-nav__link--active {
+ .menu__link--active {
 
  }
 
- .search-form__container {
+ .search-form {
 
  }
 
@@ -94,30 +112,33 @@ body {
 }
 
 
-/*CONTENT STYLES*/
-.content__container {
+/*ARTICLE CONTENT STYLES*/
+.article {
 
 }
 
-.content__header-article {
+.article__header {
 
 }
 
-.content__text-article {
+.article__content {
 
 }
 
-.content__list-article {
+.article__list {
 
 }
 
-.content__list-item-article {
+.article__list__header {
 
 }
 
+.article__list__item {
+
+}
 
 /*RECENT STYLES*/
- .recent__container {
+ .recent {
 
  }
 
@@ -138,18 +159,14 @@ body {
 }
 
 /*FOOTER STYLES*/
-.footer__container {
+.footer {
 
 }
 
-.scroll-up__wraper {
+.footer__top-icon {
 
 }
 
-.scroll-up__icon {
+.footer__top-text {
 
-}
-
-.scroll-up__text {
-    
 }
