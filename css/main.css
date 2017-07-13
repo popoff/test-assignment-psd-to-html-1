@@ -1,0 +1,155 @@
+body {
+    margin: ;
+    padding: ;
+}
+
+
+/*GRID STYLES*/
+
+.grid__container {
+    margin: ;
+    padding: ;
+}
+
+.grid__row {
+    margin: ;
+    padding: ;
+}
+
+.grid__col {
+    margin: ;
+    padding: ;
+}
+
+.grid__col-sm {
+    margin: ;
+    padding: ;
+}
+
+.grid__col-md {
+    margin: ;
+    padding: ;
+}
+
+.grid__col-lg {
+    margin: ;
+    padding: ;
+}
+
+.grid__col-xl {
+    margin: ;
+    padding: ;
+}
+
+
+/*HEADER STYLES*/
+.header__container {
+    margin: ;
+    padding: 
+}
+
+.site-name {
+
+}
+
+.site-title {
+
+}
+
+.login-link__container {
+
+}
+
+.login-link__link {
+
+}
+
+.button {
+
+}
+
+/*Navigation Styles*/
+.main-nav__container {
+
+}
+
+ .main-nav__link {
+
+ }
+
+ .main-nav__link--active {
+
+ }
+
+ .search-form__container {
+
+ }
+
+ .search-form__input {
+
+ }
+
+.search-form__icon {
+
+}
+
+
+/*CONTENT STYLES*/
+.content__container {
+
+}
+
+.content__header-article {
+
+}
+
+.content__text-article {
+
+}
+
+.content__list-article {
+
+}
+
+.content__list-item-article {
+
+}
+
+
+/*RECENT STYLES*/
+ .recent__container {
+
+ }
+
+.recent__header {
+
+}
+
+.recent__item {
+
+}
+
+.recent__img {
+
+}
+
+.recent__title {
+
+}
+
+/*FOOTER STYLES*/
+.footer__container {
+
+}
+
+.scroll-up__wraper {
+
+}
+
+.scroll-up__icon {
+
+}
+
+.scroll-up__text {
+    
+}
