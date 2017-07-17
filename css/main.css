@@ -6,25 +6,20 @@ body {
     margin: 0;
 }
 
-main {  
-    height: 100vh;
-    min-height: 600px;
-    border: 2px solid green;
-}
-
-/*GRID STYLES*/
-
-.grid__container {
+main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-     border: 2px solid blue;
+    border: 2px solid red;
+}
+
+/* .grid__container {
+    border: 2px solid blue;
 }
 
 .grid__row {
-    margin: ;
-    padding: ;
+
 }
 
 .col-xs {
@@ -32,44 +27,51 @@ main {
 }
 
 .col-sm {
-    margin: ;
-    padding: ;
+
 }
 
 .col-md {
-    margin: ;
-    padding: ;
+
 }
 
 .col-lg {
-    margin: ;
-    padding: ;
+
 }
 
 .col-xl {
-    margin: ;
-    padding: ;
-}
 
+} */
 
-/*HEADER STYLES*/
+/* HEADER STYLES */
+
 .header {
     display: flex;
-    justify-content: space-between;
-    border: 2px solid red;
-    width: 100vh;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    border: 2px solid green;
 }
 
-.logo {
+/* Logo and description block styles */
 
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid blue;
 }
 
 .header__description {
 
 }
 
-.login {
+/* Ligin block styles */
 
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid blue;
 }
 
 .login__icon {
@@ -77,28 +79,40 @@ main {
 }
 
 .login__link {
-
+    text-decoration: none;
 }
 
-.button {
+/* Button block styles */
 
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid blue;
 }
 
 .button__text {
 
 }
 
-/*Navigation Styles*/
-.nav {
-
+/* NAVIGATION STYLES */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid cyan;
 }
 
-.menu {
-
+menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid blue;
+    list-style: none;
 }
 
  .menu__link {
-
+    text-decoration: none;
  }
 
  .menu__link--active {
@@ -118,14 +132,14 @@ main {
 }
 
 
-/*CONTENT AND ARTICLE STYLES*/
+/* CONTENT AND ARTICLE STYLES */
 
 .content-wrapper {
-    background-color: #f5f5f5; 
+    background-color: #f5f5f5;
 }
 
 .article {
-
+    border: 2px solid orange;
 }
 
 .article__header {
@@ -148,9 +162,9 @@ main {
 
 }
 
-/*RECENT STYLES*/
+/* RECENT STYLES */
  .recent {
-
+    border: 2px solid magenta;
  }
 
 .recent__header {
@@ -169,9 +183,9 @@ main {
 
 }
 
-/*FOOTER STYLES*/
+/* FOOTER STYLES */
 .footer {
-
+    border: 2px solid yellow;
 }
 
 .footer__icon {
