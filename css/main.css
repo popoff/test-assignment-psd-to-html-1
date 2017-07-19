@@ -14,8 +14,21 @@ main {
     border: 2px solid red;
 }
 
-/* .grid__container {
+/* GRID STYLES */
+
+ /*.grid__container {
     border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+.grid__container > div {
+    flex-basis: 100%;
+    @media (min-width: 600px;) {
+    margin: 20px;
+    flex-basis: calc(33.333% - 40px);
+    }
 }
 
 .grid__row {
