@@ -74,8 +74,20 @@ main {
     border: 2px solid blue;
 }
 
-.header__description {
+.logo__title {
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #eb3c00;
+}
 
+.logo__description {
+    font-family: "PT Serif", Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #aaaaaa;
 }
 
 /* Ligin block styles */
@@ -88,11 +100,18 @@ main {
 }
 
 .login__icon {
-
+    font-size: 14px;
+    color: #ee4400;
 }
 
 .login__link {
+    font-family: "PT Serif", Georgia, "Times New Roman", serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
     text-decoration: none;
+    text-transform: uppercase;
+    color: #282828;
 }
 
 /* Button block styles */
@@ -102,10 +121,17 @@ main {
     flex-direction: row;
     justify-content: space-between;
     border: 2px solid blue;
+    background-color: #ee4400;
 }
 
 .button__text {
-
+    font-family: "PT Serif", Georgia, "Times New Roman", serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
 /* NAVIGATION STYLES */
