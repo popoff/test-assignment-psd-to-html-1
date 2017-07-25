@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+* {
+  background-color: rgba(0,0,0,0.1);
+}
+
 body {
     margin: 0;
 }
@@ -11,7 +15,6 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
 }
 
 /* GRID STYLES */
@@ -62,7 +65,6 @@ main {
     flex-direction: row;
     justify-content: space-around;
     width: 90%;
-    border: 2px solid green;
 }
 
 /* Logo and description block styles */
@@ -71,7 +73,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid blue;
 }
 
 .logo__title {
@@ -96,7 +97,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid blue;
 }
 
 .login__icon {
@@ -120,7 +120,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid blue;
     background-color: #ee4400;
 }
 
@@ -139,14 +138,12 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid cyan;
 }
 
 menu ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid blue;
     list-style: none;
 }
 
@@ -178,7 +175,6 @@ menu ul {
 }
 
 .article {
-    border: 2px solid orange;
 }
 
 .article__header {
@@ -203,7 +199,7 @@ menu ul {
 
 /* RECENT STYLES */
  .recent {
-    border: 2px solid magenta;
+
  }
 
 .recent__header {
@@ -224,7 +220,7 @@ menu ul {
 
 /* FOOTER STYLES */
 .footer {
-    border: 2px solid yellow;
+
 }
 
 .footer__icon {
