@@ -15,6 +15,8 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    max-width: 1448px;
+    margin: 0 auto;
 }
 
 /* GRID STYLES */
