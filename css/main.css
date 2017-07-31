@@ -99,7 +99,7 @@ main {
 .login {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .login__icon {
@@ -122,7 +122,7 @@ main {
 .button {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #ee4400;
 }
 
@@ -140,14 +140,16 @@ main {
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
 }
 
 menu ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
+    width: 50%;
 }
 
  .menu__link {
@@ -159,6 +161,7 @@ menu ul {
  }
 
  .search-form {
+     width: 50%;
 
  }
 
