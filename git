@@ -1,0 +1,21 @@
+* [33mfe4d0a5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m added some width in nav block
+* [33me2073b2[m added some space between blocks in header
+[31m|[m * [33mc04d03b[m[33m ([m[1;32mmobile-first[m[33m)[m added mobile first styles comments section
+[31m|[m[31m/[m  
+* [33m2f0dad2[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m added max-width property
+* [33m4b5932c[m - removed Debug with the solid colored borders; - added Debug with the * selector.
+* [33mcd3afec[m header styles added
+* [33m4eca13b[m flexbox grid styles added (commented)
+* [33mf935753[m All files reloaded
+* [33me8dc2de[m Reduced HTML block's  tree
+* [33m36bb46d[m Added main blocks structure: - added html elements; - added css class names.
+* [33m1623800[m - minor changes made
+* [33m5977108[m -  BEM-classes added
+* [33mca240ee[m - main,css styles reworked
+* [33m01583bd[m - bootstrap styles removed; - header classes added.
+* [33mb393ee1[m Some project templates changed and FontAwesome fonts and styles added
+* [33mc5b5e2f[m stylelint added
+* [33m1c5ce5d[m cut images and added Google fonts
+* [33m28df169[m css classes planned
+* [33m0d6de9e[m First commit
+* [33md996c4b[m :boom::camel: Added .gitattributes & .gitignore files
